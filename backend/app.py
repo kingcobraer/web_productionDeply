@@ -60,7 +60,7 @@ def api_add_student_score():
     
     #data = request.get_json()['_value']   # 将上面两句合并成一句, 实测可行! 也是标准的简化写法
 
-    print('这是data数据>>>>>>>>>',data)
+    # print('这是data数据>>>>>>>>>',data)
 
     name = data['name']
     english = data['english']
